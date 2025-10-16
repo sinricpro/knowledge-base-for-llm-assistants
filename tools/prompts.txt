@@ -1,0 +1,59 @@
+# SinricPro ESP8266/ESP32 SDK Analysis and Documentation
+
+## Overview
+This folder contains the complete SinricPro SDK for ESP8266/ESP32 platforms. Your task is to analyze the codebase and create comprehensive markdown documentation optimized for RAG (Retrieval-Augmented Generation) ingestion.
+
+## Objectives
+
+### 1. Code Analysis
+- **Comprehensive Review**: Analyze all source files, headers, and implementation files in the SDK
+- **Class Structure Analysis**: Document all classes, their inheritance relationships, and interdependencies
+- **Method Documentation**: Catalog all public and protected methods, including parameters, return types, and functionality
+- **Interface Mapping**: Identify and document all public APIs, callbacks, and event handlers
+
+### 2. RAG-Optimized Documentation Generation
+
+Create structured markdown files with the following characteristics:
+
+#### Content Structure Requirements
+- **Atomic Information Units**: Break down complex concepts into discrete, searchable sections
+- **Consistent Formatting**: Use standardized headers, code blocks, and documentation patterns
+- **Cross-Reference Links**: Include internal references between related classes and methods
+- **Searchable Metadata**: Add relevant tags and keywords for improved retrieval
+
+#### File Organization Strategy
+- **Modular Documentation**: Create separate markdown files for each major component/class
+- **Hierarchical Structure**: Organize files with clear naming conventions (e.g., `class-[ClassName].md`, `api-[ModuleName].md`)
+- **Index Files**: Generate comprehensive index and overview files for navigation
+
+#### RAG-Specific Optimization
+- **Query-Friendly Headers**: Write descriptive section headers that match likely user queries
+- **Code Examples**: Include practical usage examples with each method/class documentation
+- **Context Preservation**: Ensure each markdown section can stand alone while maintaining context
+- **Semantic Chunking**: Structure content in logical, retrievable chunks (200-500 words per section)
+
+### 3. Documentation Content Requirements
+
+Each markdown file should include:
+- **Purpose and Overview**: Clear description of the component's role
+- **API Reference**: Complete method signatures with parameter descriptions
+- **Usage Examples**: Practical code snippets demonstrating implementation
+- **Dependencies**: List of required includes and related classes
+- **Error Handling**: Documentation of exception cases and error codes
+- **Version Information**: Compatibility notes and version-specific features
+
+## Expected Deliverables
+
+1. **Class Documentation Files**: Individual markdown files for each class in the SDK
+2. **API Reference Guide**: Comprehensive method and function documentation
+3. **Usage Examples Collection**: Practical implementation examples
+4. **SDK Overview**: High-level architecture and integration guide
+5. **Search Index**: Metadata file for RAG system optimization
+
+## Quality Standards
+
+- **Accuracy**: Ensure all documentation reflects the actual code implementation
+- **Completeness**: Cover all public interfaces and major internal components
+- **Clarity**: Write in clear, technical language suitable for developers
+- **Consistency**: Maintain uniform formatting and documentation style throughout
+- **RAG Readiness**: Optimize content structure for semantic search and retrieval systems
