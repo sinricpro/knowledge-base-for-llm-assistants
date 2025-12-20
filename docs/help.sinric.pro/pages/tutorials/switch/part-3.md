@@ -212,7 +212,6 @@ void setupSinricPro()
     mySwitch.onPowerState(onPowerState);
   }
 
-  //SinricPro.restoreDeviceStates(true); // Uncomment to restore the last known state from the server.
   SinricPro.begin(APP_KEY, APP_SECRET);  
 }
 

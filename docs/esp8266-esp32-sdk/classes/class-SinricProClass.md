@@ -137,12 +137,6 @@ The `Proxy` nested class is used internally by `SinricProClass::operator[]` to p
     *   `cb`: Function pointer to a `PongCallback` function.
 *   **Return Type**: `void`
 
-### `restoreDeviceStates(bool flag)`
-*   **Purpose**: Enables or disables the feature to restore device states from the SinricPro server upon connection. If enabled, the server will send the last known states, triggering corresponding callbacks (e.g., `onPowerState`).
-*   **Parameters**:
-    *   `flag`: `true` to enable, `false` to disable.
-*   **Return Type**: `void`
-
 ### `setResponseMessage(String&& message)`
 *   **Purpose**: Sets a custom response message that will be included in the next response sent to the SinricPro server.
 *   **Parameters**:
